@@ -12,10 +12,10 @@ function confirmAnswer(title) {
 }
 // check user answers to generate password 
 function writePassword() {
-  var questions = ['Do You want To Include (U)ppercase letters?',
-    'Do You Want To Include (L)owercase Letters?',
-    'Do You Want To Include (N)umbers',
-    'Do You Want To Confirm (S)ymbols?'];
+  var questions = ['Do You want To Include Uppercase letters?',
+    'Do You Want To Include Lowercase Letters?',
+    'Do You Want To Include Numbers',
+    'Do You Want To Confirm Symbols?'];
 
   // Characters for each option.
   const options = ['ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'bcdefghijklmnopqrstuvwxyz', '0123456789', '!@#$%^&*_-+='];
